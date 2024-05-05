@@ -49,9 +49,10 @@ python generate.py
 
 The trained DCGAN model will generate realistic-looking digit images, as demonstrated in the `generated_images` directory.
 
-## Animation
+## Generated Image Animation
 
-An animation of the generated images can be found in the `animation` directory.
+![Generated Image Animation](https://github.com/satwik-math/DCGAN/blob/main/assets/generated_animation.gif)
+
 
 ## References
 
