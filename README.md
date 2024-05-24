@@ -4,11 +4,7 @@ This repository contains an implementation of a DCGAN (Deep Convolutional Genera
 
 ## Overview
 
-- `dcgan.py`: Python script containing the implementation of the DCGAN model.
-- `generator.py`: Python script containing the generator network architecture.
-- `discriminator.py`: Python script containing the discriminator network architecture.
-- `train.py`: Python script for training the DCGAN model.
-- `utils.py`: Python script containing utility functions for data loading and preprocessing.
+- `gan.py`: Python script containing the implementation of the DCGAN model.
 - `README.md`: This file, providing an overview of the repository.
 
 ## Requirements
@@ -24,25 +20,12 @@ This repository contains an implementation of a DCGAN (Deep Convolutional Genera
 
 ```bash
 git clone https://github.com/satwik-math/DCGAN.git
-cd dcgan
 ```
 
-2. Install the required dependencies:
+2. Train the DCGAN model:
 
 ```bash
-pip install -r requirements.txt
-```
-
-3. Train the DCGAN model:
-
-```bash
-python train.py
-```
-
-4. Generate images using the trained model:
-
-```bash
-python generate.py
+python gan.py
 ```
 
 ## Results
